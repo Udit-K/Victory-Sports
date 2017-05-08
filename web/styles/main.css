@@ -1,0 +1,509 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2016, 8:09:45 PM
+     Author     : Jyoti
+*/
+
+#head{
+    display: block;
+    height: 60px;
+    background-color:#c7b6ef; 
+    width: 1100px;
+}
+
+.head1{
+     color: #A74CAB;
+     padding-left: 10px;
+     margin-top:50px;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  #login{
+    background-color: #FFFFFF;
+    display:block;
+    position:fixed;
+    width:500px;
+    height:400px;
+   
+  }  
+  
+  #background {
+	background: url(../images/background.png) repeat-x center top;
+	min-height: 700px;
+  }
+  
+  #page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 49px;
+}
+  
+/** Navigation **/
+#navigation {
+	background: white;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+#navigation ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 122px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+#navigation li:first-child {
+	background: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+#navigation li a {
+	color: black;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover {
+	background-position: 0 -59px;
+	color: red;
+}
+#navigation li.selected a {
+	background-position: 0 0;
+	color: olivedrab;
+}
+
+/** Adbox **/
+#adbox {
+	
+	width: 852px;
+	margin-top: 35px;
+        margin-left:10px;
+        
+	padding: 4px 5px 18px;
+}
+#adbox p {
+	font-size: 16px;
+}
+.ads {
+	float: right;
+	width: 220px;
+	border-left: 1px solid #bbbbbb;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+hr {
+	border:0;
+	border-top: 1px solid #bbbbbb;
+	margin-bottom: 30px;
+}
+
+img {
+	border: 0;
+}
+
+
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+#contents h1 {
+	color: #316e66;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents div.body h1, #contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	font-size: 22px;
+	margin: 0 0 30px;
+}
+#contents h2 a {
+	color: #2c9688;
+	text-decoration: none;
+}
+#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 24px 2px;
+}
+#contents p a {
+	color: #5a4535;
+}
+#contents p a:hover, #news div.sidebar ul li a:hover {
+	color: #917157;
+}
+
+body1 {
+	background: #ffb744 url(../images/bg-body.jpg) repeat left bottom;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+/*------------------------------ Sprites ------------------------------*/
+#navigation li, #navigation li a:hover, #navigation li.selected a {
+	background-image: url(../images/bg-menu.png);
+	background-repeat: repeat-x;
+}
+#contents div.box, #contents div.box > div, #contents div.body {
+	background-image: url(../images/content-box.png);
+	background-repeat: no-repeat;
+}
+#main div.box, #main div.box > div, #main div.box > div > div {
+	background-image: url(../images/bg-box.png);
+	background-repeat: no-repeat;
+}
+
+
+  #common{
+      display: block;
+      width: 1000px;
+      height: 470px;
+      padding:20px;
+     
+  }  
+  
+  #block{
+      display: block;
+      width: 1200px;
+      height: 720px;
+      padding:20px;
+  }  
+.maintab{
+    
+}
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+}
+
+
+button{
+    padding: 5px 5px 5px 5px;
+   
+}
+#foot{
+    display: block;
+    height: 50px;
+    width: 1100px;
+    text-align: center;
+   
+    color:#A74CA1;
+    margin-top: 250px;
+    
+    
+    
+}
+#main{
+    width:1000px;
+    height:1000px;
+    display:block;
+}
+.main1 {
+    background-color: yellow;
+    display:block;
+    position:fixed;
+    width:100px;
+    height:100px;
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+}
+.color_green{
+    border-color: #00ff00;
+    border: #00ff00 3px solid;
+}
+.color_green_button{
+    background-color: #4CAF50;
+    height:30px;
+    width:30px;
+    border: 3px;
+    
+}
+
+
+   p, ul, li, div, nav
+        {
+
+            padding:0;
+            margin:0;
+        }
+
+
+        body
+        {
+            font-family:Calibri;
+        }
+
+
+        #menu {
+            overflow: auto;
+            position:relative;
+            z-index:2;
+        }
+
+
+        .parent-menu {
+            background-color: silver;
+            min-width:200px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 40px;
+            margin-top: 40px;
+            float:left;
+            position:relative;
+        }
+
+
+        #menu ul
+        {
+            list-style-type:none;
+        }
+
+
+        #menu ul li a
+        {
+
+            padding:10px 15px;
+            display:block;
+            color:#fff;
+            text-decoration:none;
+        }
+
+
+            #menu ul li a:hover
+            {
+                background-color:#007ee9;
+            }
+
+#menu ul li:hover > ul {
+
+                left: 200px;
+
+                -webkit-transition: left 200ms ease-in;
+
+                -moz-transition: left 200ms ease-in;
+
+                -ms-transition: left 200ms ease-in;
+
+                transition: left 200ms ease-in;
+
+            }
+
+
+            #menu ul li > ul {
+
+                position: absolute;
+
+                background-color: #2e2e2e;
+
+                top: 0;
+
+                left: -200px;
+
+                min-width: 200px;
+
+                z-index: -1;
+
+                height: 100%;
+
+                -webkit-transition: left 200ms ease-in;
+
+                -moz-transition: left 200ms ease-in;
+
+                -ms-transition: left 200ms ease-in;
+
+                transition: left 200ms ease-in;
+
+            }
+
+
+            #menu ul li > ul li a:hover
+
+            {
+
+                background-color:#2e2e2e;
+
+            }
+
+    
+  .popup {
+       background-color: #4CAF50;
+    height:30px;
+    width:30px;
+    border: 3px;
+       position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+body {
+    height: 100%;
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+}
+#mydiv {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 200;
+}
+#mydiv-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+#mydiv-content {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #6089F7;
+}
+a {
+    color: #5874BF;
+    text-decoration: none;
+}
+a:hover {
+    color: #112763;
+}
+  .modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+    background: #00d9ff; 
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
